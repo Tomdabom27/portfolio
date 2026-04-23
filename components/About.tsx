@@ -1,10 +1,10 @@
 import Reveal from "./Reveal";
 
 const skills = [
-  { name: "Go",          pct: 55 },
-  { name: "Python",      pct: 70 },
-  { name: "Rust",        pct: 35 },
-  { name: "Flutter",     pct: 40 },
+  { name: "Go", pct: 55 },
+  { name: "Python", pct: 70 },
+  { name: "Rust", pct: 35 },
+  { name: "Flutter", pct: 40 },
   { name: "Logic / arch", pct: 82 },
 ];
 
@@ -101,7 +101,7 @@ export default function About() {
                   fontWeight: 300,
                 }}
               >
-                I&apos;m 14, based in New Zealand, and settling on{" "}
+                I&apos;m in high school, based in New Zealand, and settling on{" "}
                 <strong style={{ color: "var(--text)", fontWeight: 500 }}>
                   Go
                 </strong>{" "}

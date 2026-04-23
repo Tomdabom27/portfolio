@@ -93,7 +93,7 @@ export default function Hero() {
         >
           I&apos;m Tom — a{" "}
           <strong style={{ color: "var(--text)", fontWeight: 500 }}>
-            14-year-old developer
+            young developer
           </strong>{" "}
           who builds CLI tools in Go, desktop apps in Rust, and mobile apps in
           Flutter. I care about engineering craft, not just shipping fast.

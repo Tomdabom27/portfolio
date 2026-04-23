@@ -5,7 +5,7 @@ import Reveal from "./Reveal";
 const stats = [
   { num: "3+", label: "Projects shipped" },
   { num: "4", label: "Languages used" },
-  { num: "14", label: "Years old" },
+  { num: "7+", label: "Years of experience" },
 ];
 
 export default function Stats() {

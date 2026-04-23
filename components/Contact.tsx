@@ -3,8 +3,8 @@
 import Reveal from "./Reveal";
 
 const links = [
-  { label: "✉ Email me", href: "mailto:your@email.com" },
-  { label: "◆ GitHub", href: "https://github.com/Tomdabom27" },
+  { label: "✉ Email me", href: "thomasandrewhodgson@hotmail.com" },
+  { label: "GitHub", href: "https://github.com/Tomdabom27" },
 ];
 
 export default function Contact() {

@@ -1,15 +1,16 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Tom — Apps & Tools",
   description:
-    "14-year-old developer building CLI tools, desktop apps, and mobile software. Go, Rust, Flutter.",
+    "Young developer building CLI tools, desktop apps, and mobile software. Go, Rust, Flutter.",
   openGraph: {
     title: "Tom — Apps & Tools",
     description:
-      "14-year-old developer building CLI tools, desktop apps, and mobile software.",
+      "Young developer building CLI tools, desktop apps, and mobile software.",
     type: "website",
   },
 };
@@ -24,6 +25,7 @@ export default function RootLayout({
       <body>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           {children}
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
