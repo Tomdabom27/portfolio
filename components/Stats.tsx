@@ -4,13 +4,21 @@ import Reveal from "./Reveal";
 
 const stats = [
   { num: "3+", label: "Projects shipped" },
+<<<<<<< HEAD
   { num: "4",  label: "Languages used" },
+=======
+  { num: "4", label: "Languages used" },
+>>>>>>> 24e42cde3aa6e585a84e044e1a8740c98f3cf84a
   { num: "14", label: "Years old" },
 ];
 
 export default function Stats() {
   return (
+<<<<<<< HEAD
     <Reveal>
+=======
+    <Reveal style={{ width: "100%" }}>
+>>>>>>> 24e42cde3aa6e585a84e044e1a8740c98f3cf84a
       <div
         style={{
           display: "grid",
@@ -18,6 +26,10 @@ export default function Stats() {
           gap: "1px",
           background: "var(--border)",
           borderBottom: "1px solid var(--border)",
+<<<<<<< HEAD
+=======
+          width: "100%",
+>>>>>>> 24e42cde3aa6e585a84e044e1a8740c98f3cf84a
         }}
       >
         {stats.map(({ num, label }) => (

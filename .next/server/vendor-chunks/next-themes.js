@@ -35,9 +35,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
 
 
+<<<<<<< HEAD
 const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\thoma\Dev\Projects\tom-portfolio\node_modules\next-themes\dist\index.mjs#ThemeProvider`);
 
 const e1 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\thoma\Dev\Projects\tom-portfolio\node_modules\next-themes\dist\index.mjs#useTheme`);
+=======
+const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\thoma\Downloads\tom-portfolio\node_modules\next-themes\dist\index.mjs#ThemeProvider`);
+
+const e1 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\thoma\Downloads\tom-portfolio\node_modules\next-themes\dist\index.mjs#useTheme`);
+>>>>>>> 24e42cde3aa6e585a84e044e1a8740c98f3cf84a
 
 
 /***/ })
